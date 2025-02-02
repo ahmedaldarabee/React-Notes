@@ -1,0 +1,25 @@
+.flexCenter {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.flexCol{
+    flex-direction: column;
+}
+.fullWith {
+    width: 100%;
+}
+.marginAuto{
+    margin: auto;
+}
+
+.whiteColor{
+    color: white;
+}
+
+.font20{
+    font-size: 25px;
+    text-transform: capitalize;
+    cursor: pointer;
+}

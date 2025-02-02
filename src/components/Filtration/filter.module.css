@@ -1,0 +1,19 @@
+
+
+
+
+.nameInput{
+    margin: auto;
+    outline: none;
+    padding: 5px 30px;
+    border-radius: 8px;
+    border: 1px solid #333;
+    transition: 0.3s;
+    cursor: pointer;
+}
+.nameInput::placeholder{
+    text-align: center;
+}
+.nameInput:focus{
+    outline: 2px solid #0099ff;
+}

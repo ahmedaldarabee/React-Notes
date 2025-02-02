@@ -1,0 +1,68 @@
+.white {
+    color: white;
+}
+
+.flex-center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.flex-col {
+    flex-direction: column;
+}
+
+.container {
+    margin: auto;
+}
+
+.container .user-info{
+    text-align: center;
+    cursor: pointer;
+    border-radius: 20px;
+    border: 1px solid black;
+    width: 400px;
+    margin: 20px;
+}
+
+.showContent {
+    display: block;
+}
+
+.hideContent {
+    display: none;
+}
+
+.pointer {
+    cursor: pointer;
+}
+
+.nameInputInfo {
+    display: block;
+    margin: auto;
+    padding: 5px;
+    outline: none;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+.nameInputInfo::placeholder{
+    text-align: center;
+}
+
+.buttonDesign {
+    background-color: #039603;
+    padding: 10px;
+    border: 1px solid white;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.buttonDesign:hover{
+    background-color: #028002;
+}
+
+.capitalize{
+    text-transform: capitalize;
+}
